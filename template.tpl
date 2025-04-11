@@ -1,4 +1,4 @@
-﻿___TERMS_OF_SERVICE___
+﻿﻿___TERMS_OF_SERVICE___
 
 By creating or modifying this file you agree to Google Tag Manager's Community
 Template Gallery Developer Terms of Service available at
@@ -38,6 +38,13 @@ ___TEMPLATE_PARAMETERS___
     "valueValidators": [
       {
         "type": "NON_EMPTY"
+      },
+      {
+        "type": "REGEX",
+        "args": [
+          "^https://(.*)"
+        ],
+        "errorMessage": "The JavaScript domain should start with https"
       }
     ]
   },
@@ -50,6 +57,13 @@ ___TEMPLATE_PARAMETERS___
     "valueValidators": [
       {
         "type": "NON_EMPTY"
+      },
+      {
+        "type": "REGEX",
+        "args": [
+          "^https://(.*)"
+        ],
+        "errorMessage": "The Matomo domain URL should start with https"
       }
     ]
   }
@@ -381,5 +395,5 @@ scenarios:
 
 ___NOTES___
 
-Created on 10/4/2025, 10:29:17 am
+Created on 11/4/2025, 8:52:45 am
 
