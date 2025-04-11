@@ -30,6 +30,7 @@ Or in short:
 9. Navigate to **Clients**.
 10. Click **New**.
 11. Select **Matomo Serverside Client for GTM** from the list of available templates.
-12. Click **Submit**.
-13. Click **Publish**
+12. Enter your Matomo JavaScript URL and Matomo Domain URL. 
+13. Click **Submit**. 
+14. Click **Publish**
 
