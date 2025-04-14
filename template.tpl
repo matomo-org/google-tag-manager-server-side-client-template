@@ -13,7 +13,7 @@ ___INFO___
   "id": "cvt_temp_public_id",
   "version": 1,
   "securityGroups": [],
-  "displayName": "Matomo Serverside Client for GTM",
+  "displayName": "Matomo Server-side Client for GTM",
   "brand": {
     "id": "brand_dummy",
     "displayName": "",
@@ -34,7 +34,7 @@ ___TEMPLATE_PARAMETERS___
     "name": "jsURL",
     "displayName": "Matomo Javascript URL",
     "simpleValueType": true,
-    "help": "The domain to load matomo.js, eg: https://cdn.matomo.cloud/yourdomain.matomo.cloud/",
+    "help": "The domain to load matomo.js, e.g. https://cdn.matomo.cloud/yourdomain.matomo.cloud/",
     "valueValidators": [
       {
         "type": "NON_EMPTY"
@@ -53,7 +53,7 @@ ___TEMPLATE_PARAMETERS___
     "name": "domainURL",
     "displayName": "Matomo Domain URL",
     "simpleValueType": true,
-    "help": "The domain to send the tracking request, eg https://yourdomain.matomo.cloud/",
+    "help": "The domain to send the tracking request, e.g. https://yourdomain.matomo.cloud/",
     "valueValidators": [
       {
         "type": "NON_EMPTY"
