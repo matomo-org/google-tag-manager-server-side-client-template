@@ -19,7 +19,7 @@ Or in short:
 
 ## Installation Steps
 
-1. Download our [client template](https://raw.githubusercontent.com/matomo-org/google-tag-manager-server-side-client-template/live/template.md)
+1. Download our [client template](https://raw.githubusercontent.com/matomo-org/google-tag-manager-server-side-client-template/refs/heads/live/template.tpl)
 2. [Log in to Google Tag Manager](https://tagmanager.google.com/#/home)
 3. Open your server-side container.
 4. Go to Templates.
